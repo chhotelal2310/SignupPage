@@ -14,16 +14,13 @@ const Signup = () => {
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
+              backgroundColor: "white",
+              width: "350px",
+              height: "400px",
+              padding: 20,
             }}
           >
-            <div
-              style={{
-                backgroundColor: "white",
-                width: "300px",
-                height: "400px",
-                padding: 20,
-              }}
-            >
+            <div style={{ width: "100%" }}>
               <form action="">
                 <label htmlFor="fname">First name</label>
                 <br />
