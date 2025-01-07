@@ -7,7 +7,7 @@
 .Container {
   width: 100vw;
   height: 100vh;
-  background-color: aquamarine;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,4 +20,90 @@
   flex-direction: column;
   background-color: #00849c;
   align-items: center;
+}
+
+.signupContainer h1,
+h2 {
+  color: white;
+}
+.SignupFormContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #efefef;
+  width: 350px;
+  height: 465px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.signupContainer h2 {
+  padding-bottom: 20px;
+}
+
+.SingnupContainerDetails {
+  width: 85%;
+  padding-top: 13px;
+}
+
+.formContainer {
+  color: #c3c3c3;
+}
+.formContainer input {
+  width: 100%;
+  margin-bottom: 15px;
+  height: 26px;
+}
+
+.SignupFormContainer p {
+  font-size: 12px;
+  width: 85%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.joinContainer {
+  width: 85%;
+  min-height: 30px;
+  background-color: #206da9;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+}
+.dividerOR {
+  width: 85%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dividerOR div {
+  border: 1px solid lightgrey;
+  width: 50%;
+}
+
+.dividerOR span {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: lightslategray;
+}
+
+.facebookContainer {
+  width: 85%;
+  min-height: 30px;
+  background-color: #385a9b;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  margin-top: 15px;
+}
+
+.footerText span {
+  color: #00859d;
 }

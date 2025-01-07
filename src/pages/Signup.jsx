@@ -9,50 +9,24 @@ const Signup = () => {
           <h1>Linked in</h1>
           <h2>Make the most of your professional life</h2>
 
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              flexDirection: "column",
-              backgroundColor: "white",
-              width: "350px",
-              height: "400px",
-              padding: 20,
-            }}
-          >
-            <div style={{ width: "100%" }}>
-              <form action="">
+          <div className="SignupFormContainer">
+            <div className="SingnupContainerDetails">
+              <form action="" className="formContainer">
                 <label htmlFor="fname">First name</label>
                 <br />
-                <input
-                  type="text"
-                  id="fname"
-                  style={{ width: "100%", marginBottom: "15px", height: 26 }}
-                />
+                <input type="text" id="fname" />
                 <br />
                 <label htmlFor="lname">Last name</label>
                 <br />
-                <input
-                  type="text"
-                  id="lname"
-                  style={{ width: "100%", marginBottom: "15px", height: 26 }}
-                />
+                <input type="text" id="lname" />
                 <br />
                 <label htmlFor="email">Email</label>
                 <br />
-                <input
-                  type="email"
-                  id="email"
-                  style={{ width: "100%", marginBottom: "15px", height: 26 }}
-                />
+                <input type="email" id="email" />
                 <br />
                 <label htmlFor="name">Password (6 more characters)</label>
                 <br />
-                <input
-                  type="password"
-                  id="password"
-                  style={{ width: "100%", marginBottom: "15px", height: 26 }}
-                />
+                <input type="password" id="password" />
               </form>
             </div>
 
@@ -60,13 +34,24 @@ const Signup = () => {
               By clicking Join now, you agree to Linkdedin's User Agreement
               Privacy Policy and Cookie Policy
             </p>
-            <button>Join now</button>
-            <div>or</div>
+            <button className="joinContainer">Join now</button>
+            <div className="dividerOR">
+              <div></div>
+              <span>or</span>
+              <div></div>
+            </div>
 
-            <button>Continue with Facebook</button>
-            <p>Already on Linkedin? Sign in</p>
+            <button className="facebookContainer">
+              Continue with Facebook
+            </button>
+            <p className="footerText" style={{ fontSize: "16px" }}>
+              Already on Linkedin? <span>Sign in</span>
+            </p>
           </div>
-          <p>Linkedin Coporation @ 2016</p>
+
+          <p style={{ marginTop: "10px", color: "white" }}>
+            Linkedin Coporation @ 2016
+          </p>
         </div>
       </div>
     </>
